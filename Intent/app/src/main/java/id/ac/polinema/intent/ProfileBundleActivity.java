@@ -31,14 +31,11 @@ public class ProfileBundleActivity extends AppCompatActivity {
             // TODO: display value her
             String username = extras.getString("username");
             String name = extras.getString("name");
-            int age = extras.getInt("age");
-            
+            String age = String.valueOf(extras.getInt("age"));
 
             usernameText.setText(username);
             nameText.setText(name);
-
-
-
+            ageText.setText(age);
 
 
         }
