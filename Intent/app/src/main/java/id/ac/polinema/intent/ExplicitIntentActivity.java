@@ -19,7 +19,7 @@ public class ExplicitIntentActivity extends AppCompatActivity {
         inputText = findViewById(R.id.input_name);
         outputText = findViewById(R.id.text_output);
     }
-    public  void handleSubmit(View view){
+    public  void handleSubmitEx(View view){
         String name = inputText.getText().toString();
         outputText.setText("Hello " + name);
     }

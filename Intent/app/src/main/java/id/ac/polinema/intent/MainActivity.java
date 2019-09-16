@@ -28,4 +28,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(inten);
 
     }
+
+//    public void handleProfileBundleActivity(View view) {
+//    }
+
+    public void handleActivityBundle(View view) {
+        Intent inten = new Intent(this, BundleActivity.class);
+        startActivity(inten);
+    }
 }
